@@ -33,4 +33,10 @@ public class AppTest {
 
         assertEquals(0, rs);
     }
+    @Test
+    public void 곱하기() {
+        int rs = Calculator.calc("10 * 10");
+
+        assertEquals(100, rs);
+    }
 }
